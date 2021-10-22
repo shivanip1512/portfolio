@@ -11693,5 +11693,37 @@ hr{
       margin: 0 0 0 -3px;
     }
   
+.informationIcon {
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iMTYuOTgxcHgiIGhlaWdodD0iMTYuOTgxcHgiIHZpZXdCb3g9IjAgMCAxNi45ODEgMTYuOTgxIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxNi45ODEgMTYuOTgxIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIGZpbGw9IiM2RkE0QkQiIGQ9Ik04LjUzNCwwLjIwOGMtNC41OTcsMC04LjMyNSwzLjcyOC04LjMyNSw4LjMyNWMwLDQuNTk5LDMuNzI4LDguMzI1LDguMzI1LDguMzI1DQoJYzQuNTk4LDAsOC4zMjQtMy43MjcsOC4zMjQtOC4zMjVDMTYuODU4LDMuOTM2LDEzLjEzMSwwLjIwOCw4LjUzNCwwLjIwOHoiLz4NCjxnPg0KCTxnPg0KCQk8cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMTAuMDM0LDguMjU0YzAuMTAyLTAuMjU1LDAuMjItMC41NzcsMC4yMi0wLjc0NmMwLTAuMzczLTAuNDA3LTAuNzQ2LTAuNzc5LTAuNzQ2DQoJCQljLTAuODk3LDAtMi40OSwwLjgzLTMuNDA0LDEuOTQ4QzYuMDAyLDguODYzLDYuMTM3LDkuMDgzLDYuMzQxLDkuMTE3QzYuNjEyLDguODYzLDcuNTYsOC4xNTIsNy44NDgsOC4xNTINCgkJCWMwLjA4NSwwLDAuMDg1LDAuMTAzLDAuMDMzLDAuMjM3bC0xLjc2MSw0LjIxOGMtMC4xMzcsMC4zMzktMC4yMDMsMC41NDItMC4yMDMsMC43MjljMCwwLjIwNCwwLjMzOCwwLjY3NywwLjc3OCwwLjY3Nw0KCQkJYzEuMzg5LDAsMi44OTYtMS4xMzQsMy41NTctMi4wMTRjMC4wNTItMC4yMjEtMC4xMTgtMC40MDgtMC4zMi0wLjQwOGMtMC40MjMsMC40MDYtMS4zNTUsMS4wNjYtMS41OTMsMS4wNjYNCgkJCWMtMC4xMTgsMC0wLjEzNS0wLjEwMi0wLjA2Ny0wLjI1NEwxMC4wMzQsOC4yNTR6IE0xMC4yMDMsMy4wNTVjLTAuNzc5LDAtMS4zMzgsMC42NjEtMS4zMzgsMS40MDYNCgkJCWMwLDAuNTQxLDAuMzcyLDAuOTY0LDAuOTk5LDAuOTY0YzAuNzc4LDAsMS4yODYtMC42MjYsMS4yODYtMS4zNzJDMTEuMTUsMy40MTEsMTAuNzc3LDMuMDU1LDEwLjIwMywzLjA1NXoiLz4NCgk8L2c+DQo8L2c+DQo8L3N2Zz4NCg==)
+    no-repeat;
+  height: 17px;
+  width: 17px;
+  display: inline-block;
+  margin-bottom: 0;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  margin-top: -17%;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff !important;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
   
 
