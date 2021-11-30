@@ -86,8 +86,18 @@
 							</p>
 							<p>
 								I'm currently working as a Software Developer in Tata Consultancy Services Ltd. with
-								<script>document.write(new Date().getFullYear()-2019)</script>
-								2+
+								<script>
+									var today = new Date();
+									var DOJ = new Date("15 July 2019");
+									function monthDiff(dateFrom, dateTo) {
+										return dateTo.getMonth() - dateFrom.getMonth() + 
+										(12 * (dateTo.getFullYear() - dateFrom.getFullYear()))
+									}
+								var YOE = monthDiff(DOJ, today);
+								// YOE = YOE%12<5? +(YOE/12).toFixed(0) : Math.trunc(monthDiff(DOJ,today)/12)+'.5';
+								YOE = Math.trunc(YOE/12)+(YOE%12>0?String('.'+YOE%12):'');
+								document.write(YOE);
+								</script>+
 								years of hands-on experience in Java and jQuery. I'm also a
 								Data Science and Blockchain enthusiast, programmer and a passionate learner who is
 								always willing to learn and work across technologies and domains.</p>
