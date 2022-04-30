@@ -95,10 +95,15 @@
 									}
 								var YOE = monthDiff(DOJ, today);
 								// YOE = YOE%12<5? +(YOE/12).toFixed(0) : Math.trunc(monthDiff(DOJ,today)/12)+'.5';
-								YOE = Math.trunc(YOE/12)+(YOE%12>0?String('.'+YOE%12):'');
+								var yrs = Math.trunc(YOE/12);
+								var months = YOE%12>0?YOE%12:0;
+								//YOE = Math.trunc(YOE/12)+(YOE%12>0?String('.'+YOE%12):'');
+								console.log(yrs+" "+months)
+								YOE = yrs+"yrs "+ (months>0?months+"months ":"");
+								console.log(YOE);
 								document.write(YOE);
-								</script>+
-								years of hands-on experience in Java and jQuery. I'm also a
+								</script>
+								 of hands-on experience in Java. I'm also a
 								Data Science and Blockchain enthusiast, programmer and a passionate learner who is
 								always willing to learn and work across technologies and domains.</p>
 							<p>
@@ -260,7 +265,22 @@
 									<span class="flaticon-lamp"></span>
 								</div>
 								<div class="text pl-3">
-									<span class="date">July 2019 – Present</span>
+									<span class="date">March 2022 – Present</span>
+									<h2>Software Engineer</h2>
+									<span class="position">Eaton India Innovation Center</span>
+									<p>Contributing to Yukon (Power management) Application based on
+									Java, Springboot, React & mySQL deployed using Bamboo and
+									versioned by Git (BitBucket) whilst working in an Agile development
+									environment.</p>
+								</div>
+							</div>
+
+							<div class="resume-wrap d-flex ftco-animate">
+								<div class="icon d-flex align-items-center justify-content-center">
+									<span class="flaticon-lamp"></span>
+								</div>
+								<div class="text pl-3">
+									<span class="date">July 2019 – March 2022</span>
 									<h2>System Engineer</h2>
 									<span class="position">Tata Consultancy Services</span>
 									<p>Contributing on TCS iON Enterprise Applications based on Java,
