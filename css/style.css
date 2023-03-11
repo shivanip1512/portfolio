@@ -10185,8 +10185,9 @@ h5,
 }
 .slider-text h2 span {
   color: #3e64ff;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
+
 .slider-text p {
   font-size: 20px;
   line-height: 1.5;
@@ -11723,4 +11724,8 @@ hr.center-ball::before {
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
+}
+
+.hov:hover{
+  text-decoration: underline;
 }
